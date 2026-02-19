@@ -16,7 +16,7 @@ from .models import PlacementDrive
 from .models import Student , Profile , Result
 from .models import Attendance
 from django.contrib.auth.decorators import login_required
-import csv
+import csv 
 
 
 @login_required(login_url='log')
